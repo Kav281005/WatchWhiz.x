@@ -1,0 +1,119 @@
+/* Container centered box */
+/* .inner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; 
+  width:100px;
+} */
+ 
+.container {
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: rgb(253, 252, 252);
+  width: 480px;
+  height: 650px;
+  margin: 90px auto 0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.5);
+}
+
+/* Inner content centered */
+.content {
+  width: 80%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Logo */
+.img1 {
+  width: 70px;
+  position: relative;
+  top: 20px;
+}
+
+/* Header */
+.header {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  line-height: 46px;
+}
+
+/* Input fields */
+.detail {
+  width: 400px;
+  height: 20px;
+  margin: 5px 0;
+  padding: 15px;
+  font-size: 15px;
+  color: gray;
+  border: 2px solid rgb(218, 214, 214);
+  border-radius: 15px;
+}
+.detail:focus {
+  outline: none;
+  box-shadow:
+    0 -7px 3px -2px rgba(15, 91, 231, 0.4),
+    0 7px 3px -2px rgba(15, 91, 231, 0.4),
+    7px 0 3px -2px rgba(15, 91, 231, 0.4),
+    -7px 0 3px -2px rgba(15, 91, 231, 0.4);
+}
+
+/* Button */
+.btn {
+  width: 200px ;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+/* Login button style */
+.int {
+  background-color: #f30d19;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+.int:hover {
+  background-color: #df0812;
+}
+
+/* Error message */
+.error {
+  color: red;
+  margin: 10px 0;
+}
+
+/* Footer */
+footer p {
+  font-size: 12px;
+  margin: 10px;
+  opacity: 0.7;
+}
+footer hr {
+  width: 50%;
+  opacity: 0.4;
+  margin: 0 auto;
+}
+.upbtn {
+  text-decoration: none;
+  color: #faf8f8;
+  display: inline-block;
+  margin-top: 50px;
+  padding: 11px 20px;
+  background-color: rgb(255 40 40);
+  border-radius: 20px;
+  font-weight: 700;
+}

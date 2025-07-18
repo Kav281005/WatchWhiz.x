@@ -1,0 +1,41 @@
+.watchlist-container {
+  padding: 1.5rem;
+  color: #fff;
+  background-color: #1a202c;
+  min-height: 100vh;
+}
+.watchlist-container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+.watchlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}
+.watchlist-card {
+  background-color: #2d3748;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  transition: transform 0.2s ease;
+}
+.watchlist-card:hover {
+  transform: scale(1.05);
+}
+.watchlist-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+.watchlist-card-body {
+  padding: 0.75rem;
+}
+.watchlist-card-body h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.watchlist-card-body p {
+  color: #a0aec0;
+}
